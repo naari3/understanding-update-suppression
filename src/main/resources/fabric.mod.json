@@ -5,9 +5,7 @@
 
   "name": "Example Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
-  "authors": [
-    "Me!"
-  ],
+  "authors": ["Me!"],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
@@ -18,13 +16,9 @@
 
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
-    ]
+    "main": ["net.naari3.upsp.Main"]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
+  "mixins": ["modid.mixins.json"],
 
   "depends": {
     "fabricloader": ">=0.14.6",
